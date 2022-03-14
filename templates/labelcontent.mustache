@@ -1,0 +1,42 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    @template mod_labellud/labelcontent
+
+    Displays labellud content
+
+    Example context (json):
+    {
+        "backgroundcolor" : #FFFFFF,
+        "fontcolor" : #000000,
+        "title" : New Label,
+        "fontawesomeicon" : fa-pencil-alt
+        "content" : Hello World!
+    }
+
+}}
+
+<div class="labellud-content" style="background-color: {{backgroundcolor}};">
+    <h5 style="color: {{fontcolor}}">
+        {{#fontawesomeicon}}
+            <i class="fa {{fontawesomeicon}}" aria-hidden="true"></i>
+        {{/fontawesomeicon}}
+        {{title}}
+    </h5>
+    <br>
+    {{{content}}}
+</div>

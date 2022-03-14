@@ -1,0 +1,19 @@
+.section .activity.labellud .contentwithoutlink {
+	display: block;
+	padding-right: 14px;
+}
+
+.section .activity.labellud .labellud-content {
+	padding: 10px 15px;
+}
+
+.labellud div .labellud-content h5 {
+	font-weight: bold;
+}
+
+.labellud div .labellud-content i.fa {
+	margin-right: 10px;
+}
+.path-site li.activity>div, .path-course-view li.activity>div {
+	
+}
