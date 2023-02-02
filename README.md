@@ -1,5 +1,8 @@
+## Warning
+**This plugin has been moved to a new repository, it's no longer updated on this repository. Please see https://gitlab.com/dne-elearning/moodle-magistere/moodle-mod_labellud for the latest version.**
+
 # Moodle Labellud module
-- Source Code: https://github.com/reseaucanope/moodle-mod_labellud
+- Source Code: https://gitlab.com/dne-elearning/moodle-magistere/moodle-mod_labellud
 - License: http://www.gnu.org/licenses/gpl-3.0.html
 
 ## Install from an archive
